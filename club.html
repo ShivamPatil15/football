@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Football Mania(Club Page)</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--link for default style sheet-->
+  <link rel="stylesheet" media="screen" href="assets/css/style.css">
+  <!--link for favicon-->
+  <link rel="shortcut icon" href="favicon.ico">
+  <!--font-awesome link for icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/solid.min.css">
+  <!--link for google font-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+</head>
+
+<body class="club-list-page">
+  <!--container start here-->
+  <div class="container">
+    <!--header start here-->
+    <header>
+      <div class="wrapper">
+        <h1 class="football-logo">
+          <a href="index.html" rel="noopener noreferrer" title="Logo">
+            <img src="assets/Images/logo2.png" alt="Football Logo">
+          </a>
+        </h1>
+        <div class="hamburger">
+          <span class="bar">bar</span>
+          <span class="bar">bar</span>
+          <span class="bar">bar</span>
+        </div>
+        <nav class="navigation">
+          <ul class="nav-links">
+            <li><a href="index.html" rel="noopener noreferrer" title="Home">home</a></li>
+            <li><a href="club.html" class="active-nav" rel="noopener noreferrer" title="Club">club list</a></li>
+            <li><a href="match.html" rel="noopener noreferrer" title="Match">match details</a></li>
+          </ul>
+        </nav>
+        <div class="logout">
+          <a href="login.html" title="Logout">Logout</a>
+        </div>
+      </div>
+    </header>
+    <!--header end here-->
+
+    <!--main start here-->
+    <main>
+      <!--club banner start here-->
+      <div class="club-banner">
+        <div class="wrapper">
+          <h2><span>experience</span>thrilling moments</h2>
+          <div class="explore-now">
+            <a href="#FIXME" title="Explore Now">explore now</a>
+          </div>
+        </div>
+      </div>
+      <!--club banner end here-->
+      
+      <!--clubs detail section start here-->
+      <section class="clubs-details">
+        <div class="wrapper">
+          <h3>teams</h3>
+          <ul class="football-teams">
+            <li>
+              <img src="assets/Images/manchester.jpg" alt="Manchester Club">
+              <div class="clubs-info">
+                <h3>manchester united</h3>
+                <span>old trafford</span>
+                <span class="club-profile"><a href="#FIXME" rel="noopener noreferrer" title="Manchester Club">
+                    club profile</a></span>
+              </div>
+            </li>
+            <li>
+              <img src="assets/Images/liverpool.webp" alt="Liverpool Club">
+              <div class="clubs-info">
+                <h3>liverpool</h3>
+                <span>anfield</span>
+                <span class="club-profile"><a href="#FIXME" rel="noopener noreferrer" title="Liverpool Club">
+                    club profile</a></span>
+              </div>
+            </li>
+            <li>
+              <img src="assets/Images/chelsa.jpg" alt="Chelsea Club">
+              <div class="clubs-info">
+                <h3>chelsea</h3>
+                <span>stamford bridge</span>
+                <span class="club-profile"><a href="#FIXME" rel="noopener noreferrer" title="Chelsea club">
+                    club profile</a></span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--clubs detail section end here-->
+
+      <!--club news section start here-->
+      <section class="club-news">
+        <div class="wrapper">
+          <div class="news-container">
+            <h3>news</h3>
+            <div class="more-news">
+              <a href="#FIXME" rel="noopener noreferrer" title="More News">more news</a>
+            </div>
+          </div>
+          <ul class="news-boxes">
+            <li><a href="#FIXME" rel="noopener noreferrer" title="Club News">
+                <img src="assets/Images/clubnewsone.png" alt="News One">
+                <span>club news</span>
+                <p>Monday night football for U21s</p>
+              </a></li>
+            <li><a href="#FIXME" rel="noopener noreferrer" title="Club News">
+                <img src="assets/Images/clubnewstwo.png" alt="News Two">
+                <span>club news</span>
+                <p>Ronaldo and Casemiro on Ballon d'Or shortlist</p>
+              </a></li>
+          </ul>
+        </div>
+      </section>
+      <!--club news section end here-->
+      
+      <!--clubs section start here-->
+      <section class="clubs-section">
+        <div class="wrapper">
+          <div class="clubs-btn"><button>clubs</button><span>&#10095;</span></div>
+          <div class="club-list-container">
+            <ul class="clubs-list"></ul>
+          </div>
+          <div class="club-info-container" id="displayContainer">
+            <h3 class="club-name">club name</h3>
+            <ul class="display-info">
+              <li class="dummy">club</li>
+            </ul>
+            <div class="show-more">
+              <a href="#FIXME" title="Show More">show more</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--clubs section end here-->
+      <!--epl clubs start here-->
+      <div class="epl-clubs-all">
+        <div class="wrapper">
+          <figure>
+            <img src="assets/Images/teams.jpg" alt="Clubs Teams">
+          </figure>
+        </div>
+      </div>
+      <!--epl clubs end here-->
+    </main>
+    <!--main end here-->
+
+    <!--footer start here-->
+    <footer>
+      <div class="wrapper">
+        <div class="top-footer">
+          <h1 class="football-logo">
+            <a href="index.html" rel="noopener noreferrer" title="Logo">
+              <img src="assets/Images/logo2.png" alt="Football-Logo">
+            </a>
+          </h1>
+          <ul class="footer-links">
+            <li><a href="index.html" rel="noopener noreferrer" title="Home">home</a></li>
+            <li><a href="club.html" class="active-nav" rel="noopener noreferrer" title="Club">club list</a></li>
+            <li><a href="match.html" rel="noopener noreferrer" title="Match">match details</a></li>
+          </ul>
+          <ul class="social-links">
+            <li><a href="#FIXME" rel="noopener noreferrer" title="Facebook" target="_blank">facebook</a></li>
+            <li><a href="#FIXME" rel="noopener noreferrer" title="Twitter" target="_blank">twitter</a></li>
+            <li><a href="#FIXME" rel="noopener noreferrer" title="Googleplus" target="_blank">googleplus</a></li>
+            <li><a href="#FIXME" rel="noopener noreferrer" title="Pinterest" target="_blank">pinterest</a></li>
+          </ul>
+        </div>
+        <div class="bottom-footer">
+          <p>&#169; football mania,all rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <!--footer end here-->
+  </div>
+  <!--container end here-->
+  <!--Link for js file -->
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>

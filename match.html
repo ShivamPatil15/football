@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Football Mania(Match Page)</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--link for default style sheet-->
+  <link rel="stylesheet" media="screen" href="assets/css/style.css">
+  <!--link for favicon-->
+  <link rel="shortcut icon" href="favicon.ico">
+  <!--font-awesome link for icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/solid.min.css">
+  <!--link for google font-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+</head>
+
+<body class="match-details-page">
+  <!--container start here-->
+  <div class="container">
+    <!--header start here-->
+    <header>
+      <div class="wrapper">
+        <h1 class="football-logo">
+          <a href="index.html" rel="noopener noreferrer" title="Logo">
+            <img src="assets/Images/logo2.png" alt="Football Logo">
+          </a>
+        </h1>
+        <div class="hamburger">
+          <span class="bar">bar</span>
+          <span class="bar">bar</span>
+          <span class="bar">bar</span>
+        </div>
+        <nav class="navigation">
+          <ul class="nav-links">
+            <li><a href="index.html" rel="noopener noreferrer" title="Home">home</a></li>
+            <li><a href="club.html" rel="noopener noreferrer" title="Club">club list</a></li>
+            <li><a href="match.html" class="active-nav" rel="noopener noreferrer" title="Match">match details</a></li>
+          </ul>
+        </nav>
+        <div class="logout">
+          <a href="login.html" title="Logout">Logout</a>
+        </div>
+      </div>
+    </header>
+    <!--header end here-->
+
+    <!--main start here-->
+    <main>
+      <!--match banner start here-->
+      <div class="match-banner">
+        <div class="wrapper">
+          <h2>nike ball hub</h2>
+          <p>Discover the history of the Nike ball and its 23-year association with the Premier League,
+            from the Nike Geo Merlin in 2000/01 to the Nike Flight in 2022/23.</p>
+          <div class="explore-now">
+            <a href="#FIXME" title="Explore Now">explore now</a>
+          </div>
+        </div>
+      </div>
+      <!--match banner end here-->
+      <!--Most watched section start here-->
+      <section class="most-watched">
+        <div class="wrapper">
+          <h2>most watched</h2>
+          <ul class="videos">
+            <li>
+              <span class="modal-btn">video</span>
+              <img src="assets/Images/videoone.webp" alt="Camera One">
+              <div>
+                <h3>FPL Gameweek 12</h3>
+                <span>scout selection</span>
+              </div>
+            </li>
+            <li>
+              <span class="modal-btn">video</span>
+              <img src="assets/Images/videotwo.webp" alt="Camera Two">
+              <div>
+                <h3>FPL Gameweek 12</h3>
+                <span>ones to watch</span>
+              </div>
+            </li>
+            <li>
+              <span class="modal-btn">video</span>
+              <img src="assets/Images/videothree.webp" alt="Camera Three">
+              <div>
+                <h3>FPL Gameweek 12</h3>
+                <span>differentials</span>
+              </div>
+            </li>
+            <li>
+              <span class="modal-btn">video</span>
+              <img src="assets/Images/videofour.webp" alt="Camera Four">
+              <div>
+                <h3>FPL Gameweek 10</h3>
+                <span>captain picks</span>
+              </div>
+            </li>
+          </ul>
+          <div id="simpleModal" class="modal">
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close-button">x</span>
+                <video controls autoplay>
+                  <source src="assets/videos/football-kick.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Most watched section end here-->
+      <!--Match details section start here-->
+      <section class="match-details-section">
+        <div class="wrapper">
+          <div class="matches-btn"><button>matches</button><span>&#10095;</span></div>
+          <div class="matches-list-container">
+            <ul class="matches-list"></ul>
+          </div>
+          <div class="matches-info-container" id="displayContainer">
+            <h3 class="matches-day">match day</h3>
+            <ul class="display-matches-info"></ul>
+          </div>
+        </div>
+      </section>
+      <!--Match details section end here-->
+      
+      <!--Mania partners start here-->
+      <div class="mania-partners">
+        <div class="wrapper">
+          <figure>
+            <img src="assets/Images/partners.PNG" alt="Partners">
+          </figure>
+        </div>
+      </div>
+      <!--Mania partners end here-->
+
+    </main>
+    <!--main end here-->
+
+    <!--footer start here-->
+    <footer>
+      <div class="wrapper">
+        <div class="top-footer">
+          <h1 class="football-logo">
+            <a href="index.html" rel="noopener noreferrer" title="Logo">
+              <img src="assets/Images/logo2.png" alt="Football Logo">
+            </a>
+          </h1>
+          <ul class="footer-links">
+            <li><a href="index.html" rel="noopener noreferrer" title="Home">home</a></li>
+            <li><a href="club.html" rel="noopener noreferrer" title="Club">club list</a></li>
+            <li><a href="match.html" class="active-nav" rel="noopener noreferrer" title="Match">match details</a></li>
+          </ul>
+          <ul class="social-links">
+            <li><a href="#FIXME" rel="noopener noreferrer" title="Facebook" target="_blank">facebook</a></li>
+            <li><a href="#FIXME" rel="noopener noreferrer" title="Twitter" target="_blank">twitter</a></li>
+            <li><a href="#FIXME" rel="noopener noreferrer" title="Googleplus" target="_blank">googleplus</a></li>
+            <li><a href="#FIXME" rel="noopener noreferrer" title="Pinterest" target="_blank">pinterest</a></li>
+          </ul>
+        </div>
+        <div class="bottom-footer">
+          <p>&#169; football mania,all rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <!--footer end here-->
+  </div>
+  <!--container end here-->
+  <!--Link for js file -->
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
